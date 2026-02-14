@@ -1,0 +1,82 @@
+# Disease Prediction System - Requirements
+# Install with: pip install -r requirements.txt
+
+
+# CORE DEPENDENCIES (Required)
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Web Interface
+streamlit>=1.20.0
+
+# DOCUMENT PROCESSING (Optional but Recommended)
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Word Document Processing  
+python-docx>=0.8.11
+
+# Image Processing
+Pillow>=9.0.0
+
+# OCR for Image Text Extraction
+# NOTE: Also requires Tesseract OCR installation on system
+# Windows: https://github.com/UB-Mannheim/tesseract/wiki
+
+# OPTIONAL ENHANCEMENTS
+
+# Advanced PDF Processing
+# pdfplumber>=0.7.0
+
+# Advanced Image Processing
+# opencv-python>=4.5.0
+
+# Better OCR (no system dependencies)
+# easyocr>=1.6.0
+
+# Progress Bars
+# tqdm>=4.62.0
+
+# Plotting (if adding visualizations)
+# matplotlib>=3.4.0
+# seaborn>=0.11.0
+# plotly>=5.0.0
+
+# DEVELOPMENT TOOLS (Optional)
+
+# Code Formatting
+# black>=22.0.0
+
+# Linting
+# pylint>=2.12.0
+# flake8>=4.0.0
+
+# Testing
+# pytest>=7.0.0
+
+# INSTALLATION INSTRUCTIONS
+
+# BASIC INSTALLATION (Core functionality only):
+#   pip install numpy pandas scikit-learn streamlit
+
+# FULL INSTALLATION (All features including document upload):
+#   pip install -r requirements.txt
+
+# FOR PDF + IMAGES (Most common):
+#   pip install numpy pandas scikit-learn streamlit PyPDF2 python-docx Pillow
+
+# PLATFORM-SPECIFIC NOTES
+
+#   - For OCR: Download and install Tesseract from:
+#     https://github.com/UB-Mannheim/tesseract/wiki
+#   - Add Tesseract to PATH or specify path in code
+
+
+
+
